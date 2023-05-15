@@ -35,12 +35,12 @@
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.loadFileButton = new MaterialSkin.Controls.MaterialButton();
             this.materialCard1 = new MaterialSkin.Controls.MaterialCard();
-            this.tbInform6 = new MaterialSkin.Controls.MaterialTextBox();
-            this.tbInform5 = new MaterialSkin.Controls.MaterialTextBox();
-            this.tbInform4 = new MaterialSkin.Controls.MaterialTextBox();
-            this.tbInform3 = new MaterialSkin.Controls.MaterialTextBox();
-            this.tbInform2 = new MaterialSkin.Controls.MaterialTextBox();
-            this.tbInform1s = new MaterialSkin.Controls.MaterialTextBox();
+            this.materialTextBox6 = new MaterialSkin.Controls.MaterialTextBox();
+            this.materialTextBox5 = new MaterialSkin.Controls.MaterialTextBox();
+            this.materialTextBox4 = new MaterialSkin.Controls.MaterialTextBox();
+            this.materialTextBox3 = new MaterialSkin.Controls.MaterialTextBox();
+            this.materialTextBox2 = new MaterialSkin.Controls.MaterialTextBox();
+            this.materialTextBox1 = new MaterialSkin.Controls.MaterialTextBox();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.materialCard2 = new MaterialSkin.Controls.MaterialCard();
             this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
@@ -90,12 +90,12 @@
             // materialCard1
             // 
             this.materialCard1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard1.Controls.Add(this.tbInform6);
-            this.materialCard1.Controls.Add(this.tbInform5);
-            this.materialCard1.Controls.Add(this.tbInform4);
-            this.materialCard1.Controls.Add(this.tbInform3);
-            this.materialCard1.Controls.Add(this.tbInform2);
-            this.materialCard1.Controls.Add(this.tbInform1s);
+            this.materialCard1.Controls.Add(this.materialTextBox6);
+            this.materialCard1.Controls.Add(this.materialTextBox5);
+            this.materialCard1.Controls.Add(this.materialTextBox4);
+            this.materialCard1.Controls.Add(this.materialTextBox3);
+            this.materialCard1.Controls.Add(this.materialTextBox2);
+            this.materialCard1.Controls.Add(this.materialTextBox1);
             this.materialCard1.Controls.Add(this.materialLabel1);
             this.materialCard1.Controls.Add(this.loadFileButton);
             this.materialCard1.Depth = 0;
@@ -108,107 +108,107 @@
             this.materialCard1.Size = new System.Drawing.Size(497, 528);
             this.materialCard1.TabIndex = 2;
             // 
-            // tbInform6
+            // materialTextBox6
             // 
-            this.tbInform6.AnimateReadOnly = false;
-            this.tbInform6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbInform6.Depth = 0;
-            this.tbInform6.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.tbInform6.LeadingIcon = null;
-            this.tbInform6.Location = new System.Drawing.Point(23, 326);
-            this.tbInform6.MaxLength = 50;
-            this.tbInform6.MouseState = MaterialSkin.MouseState.OUT;
-            this.tbInform6.Multiline = false;
-            this.tbInform6.Name = "tbInform6";
-            this.tbInform6.Size = new System.Drawing.Size(457, 50);
-            this.tbInform6.TabIndex = 7;
-            this.tbInform6.Text = "";
-            this.tbInform6.TrailingIcon = null;
+            this.materialTextBox6.AnimateReadOnly = false;
+            this.materialTextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialTextBox6.Depth = 0;
+            this.materialTextBox6.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox6.LeadingIcon = null;
+            this.materialTextBox6.Location = new System.Drawing.Point(23, 326);
+            this.materialTextBox6.MaxLength = 50;
+            this.materialTextBox6.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBox6.Multiline = false;
+            this.materialTextBox6.Name = "materialTextBox6";
+            this.materialTextBox6.Size = new System.Drawing.Size(457, 50);
+            this.materialTextBox6.TabIndex = 7;
+            this.materialTextBox6.Text = "";
+            this.materialTextBox6.TrailingIcon = null;
             // 
-            // tbInform5
+            // materialTextBox5
             // 
-            this.tbInform5.AnimateReadOnly = false;
-            this.tbInform5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbInform5.Depth = 0;
-            this.tbInform5.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.tbInform5.LeadingIcon = null;
-            this.tbInform5.Location = new System.Drawing.Point(23, 270);
-            this.tbInform5.MaxLength = 50;
-            this.tbInform5.MouseState = MaterialSkin.MouseState.OUT;
-            this.tbInform5.Multiline = false;
-            this.tbInform5.Name = "tbInform5";
-            this.tbInform5.Size = new System.Drawing.Size(457, 50);
-            this.tbInform5.TabIndex = 6;
-            this.tbInform5.Text = "";
-            this.tbInform5.TrailingIcon = null;
+            this.materialTextBox5.AnimateReadOnly = false;
+            this.materialTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialTextBox5.Depth = 0;
+            this.materialTextBox5.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox5.LeadingIcon = null;
+            this.materialTextBox5.Location = new System.Drawing.Point(23, 270);
+            this.materialTextBox5.MaxLength = 50;
+            this.materialTextBox5.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBox5.Multiline = false;
+            this.materialTextBox5.Name = "materialTextBox5";
+            this.materialTextBox5.Size = new System.Drawing.Size(457, 50);
+            this.materialTextBox5.TabIndex = 6;
+            this.materialTextBox5.Text = "";
+            this.materialTextBox5.TrailingIcon = null;
             // 
-            // tbInform4
+            // materialTextBox4
             // 
-            this.tbInform4.AnimateReadOnly = false;
-            this.tbInform4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbInform4.Depth = 0;
-            this.tbInform4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.tbInform4.LeadingIcon = null;
-            this.tbInform4.Location = new System.Drawing.Point(23, 214);
-            this.tbInform4.MaxLength = 50;
-            this.tbInform4.MouseState = MaterialSkin.MouseState.OUT;
-            this.tbInform4.Multiline = false;
-            this.tbInform4.Name = "tbInform4";
-            this.tbInform4.Size = new System.Drawing.Size(457, 50);
-            this.tbInform4.TabIndex = 5;
-            this.tbInform4.Text = "";
-            this.tbInform4.TrailingIcon = null;
+            this.materialTextBox4.AnimateReadOnly = false;
+            this.materialTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialTextBox4.Depth = 0;
+            this.materialTextBox4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox4.LeadingIcon = null;
+            this.materialTextBox4.Location = new System.Drawing.Point(23, 214);
+            this.materialTextBox4.MaxLength = 50;
+            this.materialTextBox4.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBox4.Multiline = false;
+            this.materialTextBox4.Name = "materialTextBox4";
+            this.materialTextBox4.Size = new System.Drawing.Size(457, 50);
+            this.materialTextBox4.TabIndex = 5;
+            this.materialTextBox4.Text = "";
+            this.materialTextBox4.TrailingIcon = null;
             // 
-            // tbInform3
+            // materialTextBox3
             // 
-            this.tbInform3.AnimateReadOnly = false;
-            this.tbInform3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbInform3.Depth = 0;
-            this.tbInform3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.tbInform3.LeadingIcon = null;
-            this.tbInform3.Location = new System.Drawing.Point(23, 158);
-            this.tbInform3.MaxLength = 50;
-            this.tbInform3.MouseState = MaterialSkin.MouseState.OUT;
-            this.tbInform3.Multiline = false;
-            this.tbInform3.Name = "tbInform3";
-            this.tbInform3.Size = new System.Drawing.Size(457, 50);
-            this.tbInform3.TabIndex = 4;
-            this.tbInform3.Text = "";
-            this.tbInform3.TrailingIcon = null;
+            this.materialTextBox3.AnimateReadOnly = false;
+            this.materialTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialTextBox3.Depth = 0;
+            this.materialTextBox3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox3.LeadingIcon = null;
+            this.materialTextBox3.Location = new System.Drawing.Point(23, 158);
+            this.materialTextBox3.MaxLength = 50;
+            this.materialTextBox3.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBox3.Multiline = false;
+            this.materialTextBox3.Name = "materialTextBox3";
+            this.materialTextBox3.Size = new System.Drawing.Size(457, 50);
+            this.materialTextBox3.TabIndex = 4;
+            this.materialTextBox3.Text = "";
+            this.materialTextBox3.TrailingIcon = null;
             // 
-            // tbInform2
+            // materialTextBox2
             // 
-            this.tbInform2.AnimateReadOnly = false;
-            this.tbInform2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbInform2.Depth = 0;
-            this.tbInform2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.tbInform2.LeadingIcon = null;
-            this.tbInform2.Location = new System.Drawing.Point(23, 102);
-            this.tbInform2.MaxLength = 50;
-            this.tbInform2.MouseState = MaterialSkin.MouseState.OUT;
-            this.tbInform2.Multiline = false;
-            this.tbInform2.Name = "tbInform2";
-            this.tbInform2.Size = new System.Drawing.Size(457, 50);
-            this.tbInform2.TabIndex = 3;
-            this.tbInform2.Text = "";
-            this.tbInform2.TrailingIcon = null;
+            this.materialTextBox2.AnimateReadOnly = false;
+            this.materialTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialTextBox2.Depth = 0;
+            this.materialTextBox2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox2.LeadingIcon = null;
+            this.materialTextBox2.Location = new System.Drawing.Point(23, 102);
+            this.materialTextBox2.MaxLength = 50;
+            this.materialTextBox2.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBox2.Multiline = false;
+            this.materialTextBox2.Name = "materialTextBox2";
+            this.materialTextBox2.Size = new System.Drawing.Size(457, 50);
+            this.materialTextBox2.TabIndex = 3;
+            this.materialTextBox2.Text = "";
+            this.materialTextBox2.TrailingIcon = null;
             // 
-            // tbInform1s
+            // materialTextBox1
             // 
-            this.tbInform1s.AnimateReadOnly = false;
-            this.tbInform1s.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbInform1s.Depth = 0;
-            this.tbInform1s.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.tbInform1s.LeadingIcon = null;
-            this.tbInform1s.Location = new System.Drawing.Point(22, 46);
-            this.tbInform1s.MaxLength = 50;
-            this.tbInform1s.MouseState = MaterialSkin.MouseState.OUT;
-            this.tbInform1s.Multiline = false;
-            this.tbInform1s.Name = "tbInform1s";
-            this.tbInform1s.Size = new System.Drawing.Size(457, 50);
-            this.tbInform1s.TabIndex = 2;
-            this.tbInform1s.Text = "";
-            this.tbInform1s.TrailingIcon = null;
+            this.materialTextBox1.AnimateReadOnly = false;
+            this.materialTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialTextBox1.Depth = 0;
+            this.materialTextBox1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox1.LeadingIcon = null;
+            this.materialTextBox1.Location = new System.Drawing.Point(22, 46);
+            this.materialTextBox1.MaxLength = 50;
+            this.materialTextBox1.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBox1.Multiline = false;
+            this.materialTextBox1.Name = "materialTextBox1";
+            this.materialTextBox1.Size = new System.Drawing.Size(457, 50);
+            this.materialTextBox1.TabIndex = 2;
+            this.materialTextBox1.Text = "";
+            this.materialTextBox1.TrailingIcon = null;
             // 
             // materialLabel1
             // 
@@ -280,12 +280,12 @@
         private MaterialSkin.Controls.MaterialCard materialCard1;
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private MaterialSkin.Controls.MaterialCard materialCard2;
-        private MaterialSkin.Controls.MaterialTextBox tbInform6;
-        private MaterialSkin.Controls.MaterialTextBox tbInform5;
-        private MaterialSkin.Controls.MaterialTextBox tbInform4;
-        private MaterialSkin.Controls.MaterialTextBox tbInform3;
-        private MaterialSkin.Controls.MaterialTextBox tbInform2;
-        private MaterialSkin.Controls.MaterialTextBox tbInform1s;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox6;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox5;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox4;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox3;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox2;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox1;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart2;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }

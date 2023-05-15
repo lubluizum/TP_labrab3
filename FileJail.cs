@@ -21,7 +21,7 @@ namespace TP_labrab3
         {
             int row = 6;
             int summ = 0;
-            for (int j = 1; j < cols; j++)
+            for (int j = 1; j <= cols; j++)
             {
                 summ += Convert.ToInt32(Worksheet.Cells[row, j].Value);
             }
@@ -42,7 +42,7 @@ namespace TP_labrab3
         {
             int row = 1;
             int summ = 0;
-            for (int j = 1; j < cols; j++)
+            for (int j = 1; j <= cols; j++)
             {
                 summ += Convert.ToInt32(Worksheet.Cells[row, j].Value);
             }
@@ -52,7 +52,7 @@ namespace TP_labrab3
         {
             int row = 2;
             int summ = 0;
-            for (int j = 1; j < cols; j++)
+            for (int j = 1; j <= cols; j++)
             {
                 summ += Convert.ToInt32(Worksheet.Cells[row, j].Value);
             }
@@ -62,7 +62,7 @@ namespace TP_labrab3
         {
             int row = 3;
             int summ = 0;
-            for (int j = 1; j < cols; j++)
+            for (int j = 1; j <= cols; j++)
             {
                 summ += Convert.ToInt32(Worksheet.Cells[row, j].Value);
             }
@@ -72,7 +72,7 @@ namespace TP_labrab3
         {
             int row = 4;
             int summ = 0;
-            for (int j = 1; j < cols; j++)
+            for (int j = 1; j <= cols; j++)
             {
                 summ += Convert.ToInt32(Worksheet.Cells[row, j].Value);
             }
@@ -86,7 +86,7 @@ namespace TP_labrab3
             List<int> Murder = new List<int>();
             List<int> Hard = new List<int>();
             List<int> Other = new List<int>();
-            for (int j = 1; j < cols; j++)
+            for (int j = 1; j <= cols; j++)
             {
                 Rape.Add(Convert.ToInt32(Worksheet.Cells[1, j].Value));
                 year.Add(Worksheet.Cells[0, j].Value.ToString());
@@ -138,7 +138,7 @@ namespace TP_labrab3
             List<string> year = new List<string>();
             List<int> Open = new List<int>();
             List<int> Close = new List<int>();
-            for (int j = 1; j < cols; j++)
+            for (int j = 1; j <= cols; j++)
             {
                 Open.Add(Convert.ToInt32(Worksheet.Cells[6, j].Value));
                 year.Add(Worksheet.Cells[0, j].Value.ToString());
