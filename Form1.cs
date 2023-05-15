@@ -56,6 +56,10 @@ namespace TP_labrab3
                 materialTextBox2.Text = file.Rape(cols).ToString() + " тыс.";
                 materialTextBox3.Text = file.Hard(cols).ToString() + " тыс.";
                 materialTextBox4.Text = file.Other(cols).ToString() + " тыс.";
+                chart1.Series.Clear();
+                chart2.Series.Clear();
+                chart1.Titles.Clear();
+                chart2.Titles.Clear();
                 file.GraphicOne(chart1, cols);
                 file.GraphicTwo(chart2, cols);
 
@@ -80,6 +84,10 @@ namespace TP_labrab3
                 materialTextBox4.Text = file.FemaleDivorces(cols).ToString() + " лет";
                 materialTextBox5.Text = file.Marriages(cols).ToString() + " тыс.";
                 materialTextBox6.Text = file.Divorces(cols).ToString() + " тыс.";
+                chart1.Series.Clear();
+                chart2.Series.Clear();
+                chart1.Titles.Clear();
+                chart2.Titles.Clear();
                 file.GraphicOne(chart1, cols);
                 file.GraphicTwo(chart2, cols);
 
