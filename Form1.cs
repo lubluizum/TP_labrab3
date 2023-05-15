@@ -1,4 +1,5 @@
-﻿using MaterialSkin;
+﻿using Aspose.Cells;
+using MaterialSkin;
 using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
@@ -28,7 +29,7 @@ namespace TP_labrab3
 
         private void loadFileButton_Click(object sender, EventArgs e)
         {
-            ReturnThere:
+        ReturnThere:
             if (openFileDialog1.ShowDialog() == DialogResult.Cancel)
             {
                 return;
@@ -43,6 +44,21 @@ namespace TP_labrab3
                 materialTextBox4.Hint = "Других преступлений за 15 лет (в тыс.)";
                 materialTextBox5.Hint = "Всего открытых дел за 15 лет (в тыс.)";
                 materialTextBox6.Hint = "Всего закрытых дел за 15 лет (в тыс.)";
+
+                Workbook wb = new Workbook(openFileDialog1.FileName);
+                Worksheet worksheet = wb.Worksheets[0];
+                int rows = worksheet.Cells.MaxDataRow;
+                int cols = worksheet.Cells.MaxDataColumn;
+                FileJail file = new FileJail(worksheet);
+                materialTextBox5.Text = file.OpenCrimes(cols).ToString() + " тыс.";
+                materialTextBox6.Text = file.CloseCrimes(cols).ToString() + " тыс.";
+                materialTextBox1.Text = file.Murder(cols).ToString() + " тыс.";
+                materialTextBox2.Text = file.Rape(cols).ToString() + " тыс.";
+                materialTextBox3.Text = file.Hard(cols).ToString() + " тыс.";
+                materialTextBox4.Text = file.Other(cols).ToString() + " тыс.";
+                file.GraphicOne(chart1, cols);
+                file.GraphicTwo(chart2, cols);
+
             }
             else if (fileInfo.Name == "RegistryOffice.xlsx")
             {
@@ -66,6 +82,7 @@ namespace TP_labrab3
                 materialTextBox6.Text = file.Divorces(cols).ToString() + " тыс.";
                 file.GraphicOne(chart1, cols);
                 file.GraphicTwo(chart2, cols);
+
             }
             else
             {
@@ -77,9 +94,9 @@ namespace TP_labrab3
                     MessageBoxDefaultButton.Button1,
                     MessageBoxOptions.DefaultDesktopOnly);
 
+
                     if (result == DialogResult.Retry)
                     goto ReturnThere;
-
                     if (result == DialogResult.Cancel)
                     this.Close();
             }
