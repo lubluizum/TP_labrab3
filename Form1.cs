@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Aspose.Cells;
 
 namespace TP_labrab3
 {
@@ -21,7 +22,7 @@ namespace TP_labrab3
 
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
-            materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
+            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
             materialSkinManager.ColorScheme = new ColorScheme(Primary.Yellow800, Primary.Yellow900, Primary.Yellow500, Accent.Orange200, TextShade.WHITE);
         }
 
@@ -51,6 +52,20 @@ namespace TP_labrab3
                 materialTextBox4.Hint = "Средний возраст женщин расторгающих брак";
                 materialTextBox5.Hint = "Количество заключенных браков (в тыс.)";
                 materialTextBox6.Hint = "Количество разводов (в тыс.)";
+
+                Workbook wb = new Workbook(openFileDialog1.FileName);
+                Worksheet worksheet = wb.Worksheets[0];
+                int rows = worksheet.Cells.MaxDataRow;
+                int cols = worksheet.Cells.MaxDataColumn;
+                RegistryOfficeFile file = new RegistryOfficeFile(worksheet);
+                materialTextBox1.Text = file.MaleMarriages(cols).ToString() + " лет";
+                materialTextBox2.Text = file.FemaleMarriages(cols).ToString() + " лет";
+                materialTextBox3.Text = file.MaleDivorces(cols).ToString() + " лет";
+                materialTextBox4.Text = file.FemaleDivorces(cols).ToString() + " лет";
+                materialTextBox5.Text = file.Marriages(cols).ToString() + " тыс.";
+                materialTextBox6.Text = file.Divorces(cols).ToString() + " тыс.";
+                file.GraphicOne(chart1, cols);
+                file.GraphicTwo(chart2, cols);
             }
             else
             {
